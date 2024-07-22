@@ -8,17 +8,29 @@
 #     print("Bugun dam olish kuni")
 # else:
 #     print("Bugun ish kuni ekan !")
-# cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia']
-# for car in cars:
-#     if car!='gm':
-#         print(car.title())
-#     else:
-#         print(car.upper())
-# login = input("Ismingiznni kiriting >>>  ")
-# if login.lower()== "admin":
-#     print("Xush kelibsiz, Admin. Foydalanuvchilar ro'yxatini ko'rasizmi?")
-# else:
-#     print(f"Xush kelibsiz {login.title()}!")
+
+
+
+
+
+
+
+
+
+
+
+
+cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia']
+for car in cars:
+    if car!='gm':
+        print(car.title())
+    else:
+        print(car.upper())
+login = input("Ismingiznni kiriting >>>  ")
+if login.lower()== "admin":
+    print("Xush kelibsiz, Admin. Foydalanuvchilar ro'yxatini ko'rasizmi?")
+else:
+    print(f"Xush kelibsiz {login.title()}!")
     
 a = int(input("Birinchi sonni kiriting >>>  "))
 b = int(input("Ikkinchi sonni kiriting >>>  "))
